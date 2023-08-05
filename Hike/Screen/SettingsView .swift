@@ -61,7 +61,39 @@ struct SettingsView: View {
                 .multilineTextAlignment(.center)
                 .padding(.bottom, 16)
                 .frame(maxWidth: .infinity)
-            }
+                
+                // MARK: - SECTION: ABOUT
+                
+                Section(
+                  header: Text("ABOUT THE APP"),
+                  footer: HStack {
+                    Spacer()
+                    Text("Copyright © All right reserved.")
+                    Spacer()
+                  }
+                    .padding(.vertical, 8)
+                ) {
+                  // 1. Basic Labeled Content
+                  // LabeledContent("Application", value: "Hike")
+                  
+                  // 2. Advanced Labeled Content
+                  
+                  CustomListRowView(rowLabel: "Application", rowIcon: "apps.iphone", rowContent: "HIKE", rowTintColor: .blue)
+                  
+                  CustomListRowView(rowLabel: "Compatibility", rowIcon: "info.circle", rowContent: "iOS, iPadOS", rowTintColor: .red)
+                  
+                  CustomListRowView(rowLabel: "Technology", rowIcon: "swift", rowContent: "Swift", rowTintColor: .orange)
+                  
+                  CustomListRowView(rowLabel: "Version", rowIcon: "gear", rowContent: "1.0", rowTintColor: .purple)
+                  
+                  CustomListRowView(rowLabel: "Developer", rowIcon: "ellipsis.curlybraces", rowContent: "Mehmet GÜVEN", rowTintColor: .mint)
+                  
+                  CustomListRowView(rowLabel: "Designer", rowIcon: "paintpalette", rowContent: "Robert Petras", rowTintColor: .pink)
+                  
+                  CustomListRowView(rowLabel: "Website", rowIcon: "globe", rowTintColor: .indigo, rowLinkLabel: "GitHub Profile", rowLinkDestination: "https://github.com/guvennmehmet")
+                  
+                } //: SECTION
+              } //: LIST
         }
     }
 }
