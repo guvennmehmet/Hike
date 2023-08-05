@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		709512FD2A7E687D003F5FDA /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709512FC2A7E687D003F5FDA /* CustomButtonView.swift */; };
+		709512FF2A7E6F6B003F5FDA /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709512FE2A7E6F6B003F5FDA /* GradientButtonStyle.swift */; };
 		70CD3D7E2A7D81DC0065DD7A /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CD3D7D2A7D81DC0065DD7A /* HikeApp.swift */; };
 		70CD3D802A7D81DC0065DD7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CD3D7F2A7D81DC0065DD7A /* ContentView.swift */; };
 		70CD3D822A7D81DF0065DD7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70CD3D812A7D81DF0065DD7A /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		709512FC2A7E687D003F5FDA /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		709512FE2A7E6F6B003F5FDA /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 		70CD3D7A2A7D81DC0065DD7A /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70CD3D7D2A7D81DC0065DD7A /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		70CD3D7F2A7D81DC0065DD7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				70CD3D912A7D8B210065DD7A /* ColorExtension.swift */,
+				709512FE2A7E6F6B003F5FDA /* GradientButtonStyle.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				70CD3D8C2A7D88950065DD7A /* CardView.swift in Sources */,
 				70CD3D7E2A7D81DC0065DD7A /* HikeApp.swift in Sources */,
 				709512FD2A7E687D003F5FDA /* CustomButtonView.swift in Sources */,
+				709512FF2A7E6F6B003F5FDA /* GradientButtonStyle.swift in Sources */,
 				70CD3D8F2A7D89960065DD7A /* CustomBackgroundView.swift in Sources */,
 				70CD3D922A7D8B210065DD7A /* ColorExtension.swift in Sources */,
 			);
